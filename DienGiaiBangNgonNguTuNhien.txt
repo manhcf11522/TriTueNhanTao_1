@@ -1,0 +1,9 @@
+nhóm Nguyễn Văn Mạnh_215051286
+===Diễn giải thuật toán  tô màu đồ thị bằng ngôn ngữ tự nhiên====
+
+B1: tính bậc của mỗi đỉnh. Trong đó bậc của mỗi đỉnh là đỉnh kề  cới nó.
+B2 : Liệt kê các đỉnh theo thứ  tự bậc giảm dần .
+B3 : Tô màu đỉnh đầu tiên với màu đầu tiên.
+B4 : Duyệt danh sach dỉnh X kề  đỉnh vừa tô, chọn đỉnh có bậc lớn nhất. Tô màu những đỉnh kề với X không kề với dỉnh ở B3 và tô cùng màu với đỉnh ở B3( gắn các đỉnh còn lại cùng 1 màu không trùng với màu đã được tô).
+B5 : xóa các đỉnh đã tô màu.
+B6 : Lặp lại B1 tới B5 với các đỉnh còn lại trên đồ thị và lấy ra một màu mới nếu có. Và thực hiện lặp lại cho tới khi các đỉnh trong đồ thi dược tô màu hết.
